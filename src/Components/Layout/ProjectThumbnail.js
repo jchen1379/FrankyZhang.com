@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const ProjectThumbnail = ({apiBase, projectName, projectTitle, projectCoverUrl}) => {
+export const ProjectThumbnail = ({urlBase, projectName, projectTitle, projectCoverUrl}) => {
   return (
-    <ProjectThumbnailLink path={apiBase + projectName}>
+    <ProjectThumbnailLink path={`${urlBase}/${projectName}`}>
       <div className="project-cover">
         <img src={projectCoverUrl} alt=""/>
       </div>
