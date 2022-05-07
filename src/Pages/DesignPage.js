@@ -6,6 +6,7 @@ import ScrollToTop from "../Utils/ScrollToTop";
 import {ProjectNavBar} from "../Components/ProjectDisplay/ProjectNavBar";
 import {useLocation} from "react-router";
 import {designPageProjectList} from "./DesignPageProjectList";
+import {recordVisitingData} from '../Utils/WebsiteTrafficMonitor';
 
 const urlBase = '/design';
 
@@ -32,6 +33,11 @@ export function getCurrentProject(path) {
 
 export function DesignPage() {
   const location = useLocation();
+
+  React.useEffect(() => {
+    recordVisitingData(getCurrentProject(location.pathname));
+  });
+
   return (
     <>
       <Router>
@@ -40,6 +46,7 @@ export function DesignPage() {
             <Route exact path="/design"/>
             {designPageProjectList.map((project) => (
               <Route exact
+                     key={project.projectId}
                      path = {`${urlBase}/${project.projectId}`}
                      component={project.component} />
             ))}
@@ -56,12 +63,14 @@ export function DesignPage() {
 
       <ProjectThumbnails>
         {designPageProjectList.map((project) => (
-          <ProjectThumbnail urlBase={urlBase}
+          <ProjectThumbnail key={project.projectId}
+                            urlBase={urlBase}
                             projectName={project.projectId}
                             projectTitle={project.projectTitle}
                             projectCoverUrl={project.projectCoverUrl}/>
         ))}
       </ProjectThumbnails>
+
     </>
   );
 }

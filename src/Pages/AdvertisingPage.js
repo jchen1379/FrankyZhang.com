@@ -7,6 +7,7 @@ import {ProjectNavBar} from "../Components/ProjectDisplay/ProjectNavBar";
 import {getCurrentProject, getNextProject, getPrevProject} from "./DesignPage";
 import {useLocation} from "react-router";
 import {advertisingPageProjectList} from "./AdvertisingPageProjectList";
+import {recordVisitingData} from '../Utils/WebsiteTrafficMonitor';
 
 const urlBase = '/advertising';
 
@@ -14,6 +15,11 @@ const projectList = advertisingPageProjectList.map((project) => (project.project
 
 export function AdvertisingPage() {
   const location = useLocation();
+
+  React.useEffect(() => {
+    recordVisitingData(getCurrentProject(location.pathname));
+  })
+
   return (
     <>
       <Router>
@@ -22,6 +28,7 @@ export function AdvertisingPage() {
             <Route exact path="/advertising"/>
             {advertisingPageProjectList.map((project) => (
               <Route exact
+                     key = {project.projectId}
                      path = {`${urlBase}/${project.projectId}`}
                      component={project.component} />
             ))}
@@ -39,11 +46,13 @@ export function AdvertisingPage() {
       <ProjectThumbnails>
         {advertisingPageProjectList.map((project) => (
           <ProjectThumbnail urlBase={urlBase}
+                            key={project.projectId}
                             projectName={project.projectId}
                             projectTitle={project.projectTitle}
                             projectCoverUrl={project.projectCoverUrl}/>
         ))}
       </ProjectThumbnails>
+
     </>
   );
 }

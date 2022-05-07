@@ -1,6 +1,11 @@
 import React from 'react';
+import {recordVisitingData} from '../Utils/WebsiteTrafficMonitor';
 
 export function AboutPage() {
+  React.useEffect(() => {
+    recordVisitingData('About');
+  });
+
   return (
     <div>
       <br/>
