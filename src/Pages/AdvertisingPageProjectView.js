@@ -29,15 +29,15 @@ export const EventPromotion = () => {
         our world habitable. There’s so much you can do to help protect and restore our planet,
         from joining a cleanup or climates strike, or even less driving more bicycling.
       </ProjectDisplayDescription>
-      <FullSizeProjectImage src={require("../Projects/event-promotion/Opening-1.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/event-promotion/Opening.jpg").default}/>
       <ProjectDisplaySubtitleLeft subtitle="EVENT POSTERS"/>
-      <DualLandscapeProjectImage src1={require("../Projects/event-promotion/POSTER_MOCKUP_02.jpg").default}
-                                 src2={require("../Projects/event-promotion/POSTER_MOCKUP_03.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/event-promotion/PGF93V1.jpg").default}/>
+      <DualLandscapeProjectImage src1={require("../Projects/event-promotion/EarthDay-Poster-1.jpg").default}
+                                 src2={require("../Projects/event-promotion/EarthDay-Poster-2.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/event-promotion/EarthDay-Banner.jpg").default}/>
       <ProjectDisplaySubtitleLeft subtitle="RELATED PRODUCTS"/>
       <FullSizeProjectImage src={require("../Projects/event-promotion/Bike.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/event-promotion/Bag+Mockup.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/event-promotion/Exhibition_Mockup_1.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/event-promotion/Bag.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/event-promotion/Exhibition.jpg").default}/>
     </ProjectDisplayContainer>
   )
 }
@@ -56,15 +56,15 @@ export const GuerrillaCampaign = () => {
         and poster designs for this campaign, and the slogan has changed from “Just do it” to
         “Just stop it.” This emphasize how Nike use its product to against gun.
       </ProjectDisplayDescription>
-      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/Logo+page.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/Nike+Poster+1.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/Nike+Poster+2.jpg").default}/>
-      <DualLandscapeWideProjectImage src1={require("../Projects/guerrilla-campaign/gun.jpg").default}
-                                     src2={require("../Projects/guerrilla-campaign/guerrilla-cover.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/box+1.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/box+2.jpg").default}/>
-      <DualProjectImageLeftWideRightNarrow src1={require("../Projects/guerrilla-campaign/bottle-mockup-1.jpg").default}
-                                           src2={require("../Projects/guerrilla-campaign/hoodie+mockup.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/LogoPage.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/NikePoster-1.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/NikePoster-2.jpg").default}/>
+      <DualLandscapeWideProjectImage src1={require("../Projects/guerrilla-campaign/Gun.jpg").default}
+                                     src2={require("../Projects/guerrilla-campaign/Guerrilla-Cover.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/Box-1.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/guerrilla-campaign/Box-2.jpg").default}/>
+      <DualProjectImageLeftWideRightNarrow src1={require("../Projects/guerrilla-campaign/Bottle.jpg").default}
+                                           src2={require("../Projects/guerrilla-campaign/Hoodie.jpg").default}/>
     </ProjectDisplayContainer>
   )
 }
@@ -82,11 +82,11 @@ export const FortuneJasmine = () => {
         to win sneakers on the lottery.
       </ProjectDisplayDescription>
       <FullSizeProjectImage src={require("../Projects/fortune-jasmine_adidas/Adidas.jpg").default}/>
-      <DualLandscapeProjectImage src1={require("../Projects/fortune-jasmine_adidas/MockUp2.jpg").default}
-                                 src2={require("../Projects/fortune-jasmine_adidas/MockUp.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/fortune-jasmine_adidas/MockUp_3.jpg").default}/>
+      <DualLandscapeProjectImage src1={require("../Projects/fortune-jasmine_adidas/ScratchLottery-2.jpg").default}
+                                 src2={require("../Projects/fortune-jasmine_adidas/ScratchLottery-1.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/fortune-jasmine_adidas/ScratchLottery-3.jpg").default}/>
       <DualPortraitProjectImage src1={require("../Projects/fortune-jasmine_adidas/Mobile.jpg").default}
-                                src2={require("../Projects/fortune-jasmine_adidas/Shoe_Box_1.jpg").default}/>
+                                src2={require("../Projects/fortune-jasmine_adidas/ShoeBox.jpg").default}/>
     </ProjectDisplayContainer>
   )
 }
@@ -106,7 +106,7 @@ export const Maroon5Promotion = () => {
       </ProjectDisplayDescription>
       <VideoContainer videoUrl="https://www.youtube.com/embed/ei4RqrkHewo"/>
       <ProjectDisplaySubtitleCenter subtitle="FOUR DIFFERENT CONCERT CANS"/>
-      <FullSizeProjectImage src={require("../Projects/maroon-5-promotion/All+Colors.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/maroon-5-promotion/AllColors.jpg").default}/>
       <DualPortraitProjectImageWithSubtitle src1={require("../Projects/maroon-5-promotion/White.jpg").default}
                                             subtitle1="White Can"
                                             src2={require("../Projects/maroon-5-promotion/Black.jpg").default}

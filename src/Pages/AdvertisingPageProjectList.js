@@ -10,19 +10,19 @@ export const advertisingPageProjectList = [
   {
     projectId: "guerrilla-campaign",
     projectTitle: "GUERRILLA CAMPAIGN",
-    projectCoverUrl: require("../Projects/guerrilla-campaign/guerrilla-cover.jpg").default,
+    projectCoverUrl: require("../Projects/guerrilla-campaign/Guerrilla-Cover.jpg").default,
     component: GuerrillaCampaign
   },
   {
     projectId: "fortune-jasmine",
     projectTitle: "FORTUNE JASMINE / ADIDAS",
-    projectCoverUrl: require("../Projects/fortune-jasmine_adidas/fortune-jasmine-cover.jpg").default,
+    projectCoverUrl: require("../Projects/fortune-jasmine_adidas/FortuneJasmine-Cover.jpg").default,
     component: FortuneJasmine
   },
   {
     projectId: "maroon-5-promotion",
     projectTitle: "MAROON 5 PROMOTION",
-    projectCoverUrl: require("../Projects/maroon-5-promotion/maroon-5-cover.gif").default,
+    projectCoverUrl: require("../Projects/maroon-5-promotion/Maroon-5-Cover.gif").default,
     component: Maroon5Promotion
   },
 ]

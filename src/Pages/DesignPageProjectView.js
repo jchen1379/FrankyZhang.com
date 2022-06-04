@@ -24,9 +24,9 @@ export const UltraDesire = () => {
         have what you need. </ProjectDisplayDescription>
       <ProjectDisplayFootNote>This work was selected for the Creative Quarterly
         Competition.</ProjectDisplayFootNote>
-      <FullSizeProjectImage src={require("../Projects/magic-drink_ultra-desire/FOUR+DRINKS.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/magic-drink_ultra-desire/Power+2.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/magic-drink_ultra-desire/Knowledge+2.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/magic-drink_ultra-desire/FourDrinks.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/magic-drink_ultra-desire/Power.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/magic-drink_ultra-desire/Knowledge.jpg").default}/>
       <DualSquareProjectImage src1={require("../Projects/magic-drink_ultra-desire/Focus.jpg").default}
                               src2={require("../Projects/magic-drink_ultra-desire/Creativity.jpg").default}/>
       <FullSizeProjectImage src={require("../Projects/magic-drink_ultra-desire/Labels.jpg").default}/>
@@ -46,12 +46,12 @@ export const AtlantisDeck = () => {
         to explore the underwater lost kingdom.
       </ProjectDisplayDescription>
       <FullSizeProjectImage
-        src={require("../Projects/playing-cards_atlantis-deck/Cards+Template-+big+cards+template.jpg").default}/>
+        src={require("../Projects/playing-cards_atlantis-deck/CardsTemplate.jpg").default}/>
       <FullSizeProjectImage src={require("../Projects/playing-cards_atlantis-deck/Case.jpg").default}/>
       <FullSizeProjectImage src={require("../Projects/playing-cards_atlantis-deck/KQ.jpg").default}/>
       <DualLandscapeProjectImage src1={require("../Projects/playing-cards_atlantis-deck/Jack.jpg").default}
-                                 src2={require("../Projects/playing-cards_atlantis-deck/Ace+.jpg").default}/>
-      <DualLandscapeProjectImage src1={require("../Projects/playing-cards_atlantis-deck/Joker+.jpg").default}
+                                 src2={require("../Projects/playing-cards_atlantis-deck/Ace.jpg").default}/>
+      <DualLandscapeProjectImage src1={require("../Projects/playing-cards_atlantis-deck/Joker.jpg").default}
                                  src2={null}/>
     </ProjectDisplayContainer>
   )
@@ -72,15 +72,15 @@ export const JungleSmash = () => {
         flavors”.
       </ProjectDisplayDescription>
       <FullSizeProjectImage
-        src={require("../Projects/tea&coffee-branding_jungle-smash/Big+Branding+Template.jpg").default}/>
+        src={require("../Projects/tea&coffee-branding_jungle-smash/BigBrandingTemplate.jpg").default}/>
       <FullSizeProjectImage
-        src={require("../Projects/tea&coffee-branding_jungle-smash/Free+Grid+Brand+Business+Card+Mockup.jpg").default}/>
+        src={require("../Projects/tea&coffee-branding_jungle-smash/BrandBusinessCard.jpg").default}/>
       <DualLandscapeProjectImage
-        src1={require("../Projects/tea&coffee-branding_jungle-smash/Coaster+1.jpg").default}
-        src2={require("../Projects/tea&coffee-branding_jungle-smash/Coaster+2.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/tea&coffee-branding_jungle-smash/Letterhead.jpg").default}/>
+        src1={require("../Projects/tea&coffee-branding_jungle-smash/Coaster-1.jpg").default}
+        src2={require("../Projects/tea&coffee-branding_jungle-smash/Coaster-2.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/tea&coffee-branding_jungle-smash/LetterHead.jpg").default}/>
       <FullSizeProjectImage src={require("../Projects/tea&coffee-branding_jungle-smash/Menu.jpg").default}/>
-      <FullSizeProjectImage src={require("../Projects/tea&coffee-branding_jungle-smash/Cup2.jpg").default}/>
+      <FullSizeProjectImage src={require("../Projects/tea&coffee-branding_jungle-smash/Cup.jpg").default}/>
     </ProjectDisplayContainer>
   )
 }
@@ -90,8 +90,8 @@ export const DanceFestival = () => {
     <ProjectDisplayContainer id="dance-festival">
       <ProjectDisplayInfoRight projectTitle="DANCE FESTIVAL"/>
       <PosterStyleProjectImage>
-        <FullSizeProjectImage src={require("../Projects/poster_dance-festival/Dance+Poster.jpg").default}/>
-        <FullSizeProjectImage src={require("../Projects/poster_dance-festival/Music+Poster.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/poster_dance-festival/DancePoster.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/poster_dance-festival/MusicPoster.jpg").default}/>
       </PosterStyleProjectImage>
     </ProjectDisplayContainer>
   )
@@ -104,9 +104,9 @@ export const JeanLucGodard = () => {
                                projectDescription="A series of dads for movies directed by Jean-Luc Godard is
                                      created by using typography, shapes, lines and three colors. "/>
       <PosterStyleProjectImage>
-        <FullSizeProjectImage src={require("../Projects/dvd_jean-luc-godard/ALPHAVILLE.jpg").default}/>
-        <FullSizeProjectImage src={require("../Projects/dvd_jean-luc-godard/BREATHLESS.jpg").default}/>
-        <FullSizeProjectImage src={require("../Projects/dvd_jean-luc-godard/PIERROT.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/dvd_jean-luc-godard/AlphaVille.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/dvd_jean-luc-godard/Breathless.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/dvd_jean-luc-godard/Pierrot.jpg").default}/>
       </PosterStyleProjectImage>
     </ProjectDisplayContainer>
   )
@@ -121,7 +121,7 @@ export const ShakespeareInThePark = () => {
                                      taking place, Othello and Twelfth."/>
       <PosterStyleProjectImage>
         <FullSizeProjectImage
-          src={require("../Projects/poster_shakespeare-in-the-park/Shakespeare+Poster.jpg").default}/>
+          src={require("../Projects/poster_shakespeare-in-the-park/ShakespearePoster.jpg").default}/>
       </PosterStyleProjectImage>
     </ProjectDisplayContainer>
   )
@@ -150,19 +150,19 @@ export const UntilItBleeds = () => {
       </ProjectDisplayInfoRight>
       <PosterStyleProjectImage>
         <FullSizeProjectImage
-          src={require("../Projects/book_until-it-bleeds/template+11x17+page-7x7+book.jpg").default}/>
+          src={require("../Projects/book_until-it-bleeds/AddictionBook-Page-1.jpg").default}/>
         <FullSizeProjectImage
-          src={require("../Projects/book_until-it-bleeds/template+11x17+page-7x7+book2.jpg").default}/>
+          src={require("../Projects/book_until-it-bleeds/AddictionBook-Page-2.jpg").default}/>
         <FullSizeProjectImage
-          src={require("../Projects/book_until-it-bleeds/template+11x17+page-7x7+book3.jpg").default}/>
+          src={require("../Projects/book_until-it-bleeds/AddictionBook-Page-3.jpg").default}/>
         <FullSizeProjectImage
-          src={require("../Projects/book_until-it-bleeds/template+11x17+page-7x7+book4.jpg").default}/>
+          src={require("../Projects/book_until-it-bleeds/AddictionBook-Page-4.jpg").default}/>
         <FullSizeProjectImage
-          src={require("../Projects/book_until-it-bleeds/template+11x17+page-7x7+book5.jpg").default}/>
+          src={require("../Projects/book_until-it-bleeds/AddictionBook-Page-5.jpg").default}/>
         <FullSizeProjectImage
-          src={require("../Projects/book_until-it-bleeds/template+11x17+page-7x7+book6.jpg").default}/>
+          src={require("../Projects/book_until-it-bleeds/AddictionBook-Page-6.jpg").default}/>
         <FullSizeProjectImage
-          src={require("../Projects/book_until-it-bleeds/Addiction_Book_Front-Cover2.jpg").default}/>
+          src={require("../Projects/book_until-it-bleeds/AddictionBook-FrontCover-2.jpg").default}/>
       </PosterStyleProjectImage>
     </ProjectDisplayContainer>
   )
@@ -179,7 +179,7 @@ export const ASoundOfThunder = () => {
       </ProjectDisplayInfoRight>
       <PosterStyleProjectImage>
         <FullSizeProjectImage
-          src={require("../Projects/book-cover_a-sound-of-thunder/a-sound-of-thunder.jpg").default}/>
+          src={require("../Projects/book-cover_a-sound-of-thunder/ASoundOfThunder.jpg").default}/>
       </PosterStyleProjectImage>
     </ProjectDisplayContainer>
   )
@@ -202,12 +202,12 @@ export const TheFlesh = () => {
         </ProjectDisplayDescription>
       </ProjectDisplayInfoRight>
       <PosterStyleProjectImage>
-        <FullSizeProjectImage src={require("../Projects/book_the-flesh/Recipe+7x7+book.jpg").default}/>
-        <FullSizeProjectImage src={require("../Projects/book_the-flesh/Recipe+7x7+book2.jpg").default}/>
-        <FullSizeProjectImage src={require("../Projects/book_the-flesh/Recipe+7x7+book3.jpg").default}/>
-        <FullSizeProjectImage src={require("../Projects/book_the-flesh/Recipe+7x7+book4.jpg").default}/>
-        <FullSizeProjectImage src={require("../Projects/book_the-flesh/Recipe_Book_Back-Cover2.jpg").default}/>
-        <FullSizeProjectImage src={require("../Projects/book_the-flesh/Recipe_Book_Front-Cover.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/book_the-flesh/RecipeBook-1.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/book_the-flesh/RecipeBook-2.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/book_the-flesh/RecipeBook-3.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/book_the-flesh/RecipeBook-4.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/book_the-flesh/RecipeBook-BackCover-2.jpg").default}/>
+        <FullSizeProjectImage src={require("../Projects/book_the-flesh/RecipeBook-FrontCover.jpg").default}/>
       </PosterStyleProjectImage>
     </ProjectDisplayContainer>
   )
