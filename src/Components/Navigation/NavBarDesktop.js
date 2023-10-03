@@ -4,10 +4,9 @@ import {NavLink} from "./NavLink";
 export function NavBarDesktop() {
   return (
     <div className="header">
-      <div className="name-brand">
-        <a className="name" href="/">FRANKY ZHANG</a>
-        <span className="title">Graphic Designer</span>
-      </div>
+      <a className="name-brand" href="/">
+        <img src={require("../../Projects/franky_zhang_logo.png").default}/>
+      </a>
       <div className="nav-bar">
         <NavLink path="/design">DESIGN</NavLink>
         <NavLink path="/advertising">ADVERTISING</NavLink>
